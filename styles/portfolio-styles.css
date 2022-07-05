@@ -1,0 +1,52 @@
+/*----PORTFOLIO MAIN SECTION----*/
+.portfolio-hero-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: linear-gradient(60deg, var(--main-background) 0%, var(--main-background2) 100%);
+	height: 100vh;
+}
+
+.portfolio-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio-hero-section-title {
+	position: absolute;
+	top: 35%;
+	font-family: Raleway;
+	color: var(--main-border);
+	font-size: 3rem;
+}
+
+.portfolio-hero-section-subtitle {
+	position: absolute;
+	top: 43%;
+	font-family: Poppins;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 1.3em;
+	letter-spacing: 3px;
+	color: var(--main-text-subtitle);
+}
+
+.portfolio-placeholder{ 
+	color: var(--main-text); 
+	position: relative; 
+	top: 40px; 
+	text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+	.portfolio-hero-section-subtitle {
+		top: 50%;
+	}
+	.portfolio-placeholder {
+		position: absolute;
+		top: 55%;
+	}
+}

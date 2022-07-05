@@ -33,13 +33,13 @@ const themeSwitch = () => {
 
 
 function applyTheme(theme) {
-	document.body.classList.remove( "theme-light", "theme-dark");
+	document.body.classList.remove("theme-light", "theme-dark");
 	document.body.classList.add(`theme-${theme}`);
 }
 
 
 document.addEventListener("DOMContentLoaded", () => {
-	const savedTheme = localStorage.getItem("theme") || auto;
+	const savedTheme = localStorage.getItem("theme") || "auto";
 	applyTheme(savedTheme);
 	for (const optionElement of document.querySelectorAll("#selTheme option")){
 		optionElement.selected = savedTheme === optionElement.value;
