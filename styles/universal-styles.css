@@ -1,22 +1,22 @@
 /*----UNIVERSAL STYLING----*/
 :root {
-	--light-main-text: #000000;
-	--light-main-hover: #6782C7;
-	--light-main-border: #6782C7;
-	--light-main-text-subtitle: #d50f15;
-	--light-main-secondary: #c6897b;
-	--light-main-background: #e0deda;
+	--light-main-text: #2B2E28;
+	--light-main-hover: #C9C7B8;
+	--light-main-border: #774C36;
+	--light-main-text-subtitle: #354031;
+	--light-main-secondary: #926B4C;
+	--light-main-background: #C9C7B8;
 	--light-main-background2: #faf1ec;
 }
 
 body {
 	/*--dark theme--*/
-	--main-text: #FFFFFF;
-	--main-hover: #ffffff;
-	--main-border: #FE2858;
-	--main-text-subtitle: #2AF0EA;
-	--main-secondary: #397684;
-	--main-background: #303841;
+	--main-text: #C9C7B8;
+	--main-hover: #C9C7B8;
+	--main-border: #926B4C;
+	--main-text-subtitle: #C9C7B8;
+	--main-secondary: #774C36;
+	--main-background: #2B2E28;
 	--main-background2: #131313;
 
 	background: linear-gradient(var(--main-background) 0%, var(--main-background2) 100%);
