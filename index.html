@@ -22,11 +22,18 @@
           <li class = "nav-link"><a href="./portfolio.html">portfolio</a></li>
           <li class = "nav-link"><a href="./about.html">about</a></li>
           <li class = "nav-link"><a href="./contact.html">contact</a></li>
+          <li></li>
         </ul>
       </nav>
     </header>
 
     <!-- ----HERO SECTION---- -->
+    <!--<div class = "view-mode-button" id = "viewModeButton">
+      <input type="checkbox" name="switch" id = "switch" onclick = "lightMode()" onclick = "themeSwitch()"/>
+      <label for = "switch"></label>
+      <h4 id = "view-mode-label" class = "view-mode-label">light mode</h4>
+    </div>-->
+
     <main class = "hero-section">
       <h1  class = "hero-section-title">Hey, I'm Graham Jantz</h1>
       <h2 class = "hero-section-subtitle"><code><</code>a front-end developer<code>/></code></h2>
@@ -36,11 +43,7 @@
         <li><a href="./about.html">about</a></li>
         <li><a href="./contact.html">contact</a></li>
       </ul>
-      <div class = "view-mode-button" id = "viewModeButton">
-        <input type="checkbox" name="switch" id = "switch" onclick = "lightMode()"/>
-        <label for = "switch"></label>
-        <h4 id = "view-mode-label" class = "view-mode-label">light mode</h4>
-      </div>
+      
     </main>
 
     <!-- ----FOOTER SECTION---- -->
@@ -50,6 +53,13 @@
         <li><a href="mailto:grahammrjantz@gmail.com" target = "_blank"><i class="fa-solid fa-envelope"></i></a></li>
         <li><a href="https://github.com/grahamjantz" target = "_blank"><i class="fa-brands fa-github"></i></a></li>
       </ul>
+      <div class = "theme-button">
+        <!--<h4>theme: </h4>-->
+        <select class = "select__input" id = "selTheme">
+          <option value = "dark">dark</option>
+          <option value = "light">light</option>
+        </select>
+      </div>
     </footer>
   </body>
 </html>
